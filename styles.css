@@ -1,0 +1,402 @@
+body
+{
+    font-family: 'Lato', sans-serif;
+    color: #41484b;
+    margin: 0px;
+    
+}
+/* Heder */
+.header-title{
+  width: 100%;
+  height: 44px;
+  position:fixed;
+  background-color: white;
+  z-index: 10001;
+  border: 1px solid white;
+}
+.header-image {
+    background-image: url("header.png");
+    background-color: #cccccc;
+    height: 800px;
+    background-position:initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .ser{
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+    position:absolute;
+    top: 5px;
+    right: 50px;
+    margin: 5px;
+    width: 130px;
+    padding: 5px;
+    outline: gray;
+    transition: width 0.4s ease-in-out;
+  }
+  .ser:focus{
+    width: 200px;
+  }
+  .logo2{
+    height: 44px;
+  }
+  .logo{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin-top: 150px;
+    margin-left: 780px;
+  }
+  
+  .header-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .container{
+  width: auto;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 7px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url("bg.jpg");
+  
+  }
+  .left-side{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .left-title{
+      color: gray;
+      font-size: 26px;
+      text-align: left;
+      width: fit-content;
+      padding: 10px;
+      border-left: 2px solid red;
+      margin-top: 5px;
+      
+  }
+/*
+  .header-text h1
+{
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+} */
+
+  .header-text .vertical-line
+{
+    height: 2px;
+    background-color: #fff;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+/*
+.header-text p
+{
+    font-size: 26px;
+    color: #fff;
+}
+*/
+.right-title{
+   
+  font-size: 26px;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 25px;
+  margin-top: 5px;
+  position: absolute;
+  right: 150px;
+  top: 20px;
+}
+
+
+.tab{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 5px; 
+  height: 320px;
+  margin-top: 50px;
+  margin-left: 0px;
+  
+}
+
+
+.add-icon{
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+  padding: 3px;
+}
+.addb{
+ border: 0px;
+ background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 240px;
+  width: fit-content;
+  padding: auto;
+  margin: 5px;
+  cursor: pointer;
+}
+#status{
+  border: 1px solid white;
+  background-color: rgb(150, 245, 7);
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 5px;
+  width:140px;
+  height: 30px;
+  padding: 5px;
+  cursor: pointer;
+  position: relative;
+  outline:none;
+  font-family: monospace;
+}
+
+.project-information{
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 5px;
+  width:150px;
+  height: fit-content;
+  padding: 5px;
+  cursor: pointer;
+  position: relative;
+  outline-color: red;
+  font-family: monospace;
+  text-align: left;
+}
+.video-presentation{
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 5px;
+  width:150px;
+  height: fit-content;
+  padding: 5px;
+  cursor: pointer; 
+  position: relative;
+  outline-color: red;
+  font-family: monospace;
+  text-align: left;
+}
+.contract{
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 5px;
+  height: 30px;
+  width: 150px;
+  padding: 5px;
+  cursor: pointer;
+  position: relative;
+  outline-color: red;
+  font-family: monospace;
+  text-align: left;
+}
+
+.upload{
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 5px;
+  height: 30px;
+  width: 150px;
+  padding: 5px;
+  cursor: pointer;
+  transition: all 200ms ease-out;
+  position: relative;
+  outline-color: red;
+  font-family: monospace;
+  text-align: left;
+}
+
+.sup-name{
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 5px;
+  height:30px;
+  width: 94%;
+  padding: 5px;
+  cursor: pointer;
+  position: relative;
+  outline-color: red;
+  font-family: monospace;
+  text-align: left;
+}
+#mmm{
+  width: 500px;
+}
+
+.details-title{
+  position: relative;
+  margin: 5px;
+  padding: 5px;
+  width:162%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 0px solid white;
+}
+.add-new-project{
+  background-color: white;
+  border: 1px solid white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 3px;
+  position: absolute;
+  right: 50px;
+  margin: 5px;
+  width: 130px;
+  padding: 5px;
+  cursor: pointer;
+  outline-color: red;
+  font-family: monospace;
+}
+button:hover{
+  border-left: 2px solid red;
+  /*box-shadow: 0 4px 8px 0 rgb(247, 9, 9), 0 6px 20px 0 rgb(240, 4, 4); */
+}
+.add-new-project:hover{
+  border-left: 2px solid red;
+}
+#create{
+  height: max-content;
+}
+#create li {
+  display: inline-block;
+  padding: 5px; 
+}
+/* drop downs for upload files contract class*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: -25px;
+}
+
+.dropdown-content input {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* drop downs for upload files Video class*/
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: -25px;
+}
+
+.dropdown-content2 input {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* drop downs for upload files project class*/
+.dropdown3 {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content3 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: -25px;
+}
+
+.dropdown-content3 input {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* drop downs for upload files addb class*/
+.dropdown4 {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content4 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: -25px;
+}
+.dropdown-content4 input {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+/*drop downs for supervisor sup class class*/
+.sup-dropdown {
+  position: relative;
+  display: inline-block;
+  width:150%;
+}
+
+
+.dropdown input:hover {background-color: #ddd;}
+.dropdown2 input:hover {background-color: #ddd;}
+.dropdown3 input:hover {background-color: #ddd;}
+.dropdown4 input:hover {background-color: #ddd;}
+.sup-dropdown input:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+#project-tile{
+  position: relative;
+}
+
+
+
+
+/*
+
+*/
+
